@@ -11,3 +11,7 @@
 ```
 CacheUtils.put(String key,Object value)
 Object value=CacheUtils.get(String key)
+
+特别说明
+====
+如果download.oracle.com无法连接，请执行lib目录下的install即可。
