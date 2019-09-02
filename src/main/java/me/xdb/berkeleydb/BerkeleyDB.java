@@ -85,7 +85,7 @@ public class BerkeleyDB {
 
         } catch (Exception e) {
         	if (logger.isLoggable(Level.WARNING)) {
-                logger.warning("BerkeleyDB get error!");
+        		MyLog.stackTrace(e,"BerkeleyDB get error!");
             }
         }
 
